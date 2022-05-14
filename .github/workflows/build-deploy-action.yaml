@@ -29,4 +29,4 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        tags: ${{ secrets.DOCKER_HUB_USERNAME }}/slitt-2022-test:${{ github.sha }}
+        tags: ${{ secrets.DOCKER_USERNAME }}/slitt-2022-test:${{ github.sha }}
